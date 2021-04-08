@@ -21,7 +21,7 @@ namespace Cloud5mins.Function
         {
             log.LogInformation($"C# HTTP trigger function processed for Url: {shortUrl}");
 
-            string redirectUrl = "https://azure.com";
+            string redirectUrl = "https://www.gabc.org";
 
             if (!String.IsNullOrWhiteSpace(shortUrl))
             {
